@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 mercadopago.configure({
   access_token:
-    "TEST-8840939573547467-020707-248077b0607d89f9d2b67ee11a4f9e27-705632138",
+    "TEST-1421700133297744-101717-d3fb60e18a18166cc7119133777038be-452151561",
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));

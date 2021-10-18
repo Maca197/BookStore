@@ -64,12 +64,12 @@ async function pay() {
       })
     ).json();
 
-    var script = document.createElement("script");
+    let script = document.createElement("script");
 
     // The source domain must be completed according to the site for which you are integrating.
     // For example: for Argentina ".com.ar" or for Brazil ".com.br".
     script.src =
-      "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js";
+      "https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js";
     script.type = "text/javascript";
     script.dataset.preferenceId = preference.preferenceId;
     script.setAttribute("data-button-label", "Pagar con Mercado Pago");
@@ -97,7 +97,11 @@ async function pay() {
   //await fetchProducts();
   document.getElementById("checkout").innerHTML = `Carrito $${total}`;
 }
-
+/*function search()
+{
+  let busq = document.getElementById("busqueda");
+  displayProducts()
+}*/
 //-----
 function displayProducts() {
   document.getElementById("product-cards").style.display = "flex";
@@ -114,6 +118,8 @@ function displayProducts() {
     productsHTML += `<div class="product-container">
             <h3>${p.name}</h3>
             <img src="${p.image}" />
+            <p class="autor">${p.autor}</p>
+            <p class="desc">${p.desc}</p>
             <h1>$${p.price}</h1>
             ${buttonHTML}
         </div>`;
