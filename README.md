@@ -41,4 +41,5 @@ Aprende a programar creando tu tienda online.
 - Video: en proceso
 - Codigo: proximante...
 
-## 11 - Estamos probando el Webhook
+## 11 - Estamos probando el Webhook mediante discord y github
+- Esperamos funcione
