@@ -38,3 +38,5 @@ Aprende a programar creando tu tienda online.
 - Código: https://github.com/utilapis/webstore/tree/feature/09-GuardaLaOrdenDeComprasDeTuTiendaOnline
 
 ## 10 - Prueba en mi servidor
+- Video: en proceso
+- Codigo: proximante...
